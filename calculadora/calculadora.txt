@@ -1,0 +1,11 @@
+function sumar(num1,num2){
+    return num1 + num2
+}
+
+const sumar = function (num1, num2){
+    return num1 + num2;
+}
+
+//sumar -40; no lo va a permitir si tenemos declarada la constante.
+
+console.log(sumar(12, -40));
